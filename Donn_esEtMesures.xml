@@ -20,7 +20,7 @@
       <inlinemediaobject>
         <imageobject>
           <imagedata contentdepth="302" contentwidth="605"
-                     fileref="DonnéesEtMesures_files/image1.png"/>
+                     fileref="static/image1.png"/>
         </imageobject>
       </inlinemediaobject>
     </para>
@@ -111,13 +111,9 @@
     y a dans un kilomètre. Ainsi pour calculer la vitesse S on a :</para>
 
     <informalequation>
-      <mathphrase>S = </mathphrase>
-    </informalequation>
-
-    <informalequation>
       <mediaobject>
         <imageobject>
-          <imagedata fileref="data:image/png;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1hdGggZGlzcGxheT0iYmxvY2siIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj4KICA8bWk+UzwvbWk+CiAgPG1vPj08L21vPgogIDxtZnJhYz4KICAgIDxtcm93PgogICAgICA8bW4+MTAuNDQ8L21uPgogICAgICA8bWk+bTwvbWk+CiAgICA8L21yb3c+CiAgICA8bXJvdz4KICAgICAgPG1uPjE8L21uPgogICAgICA8bWk+czwvbWk+CiAgICA8L21yb3c+CiAgPC9tZnJhYz4KICA8bW8+w5c8L21vPgogIDxtZnJhYz4KICAgIDxtcm93PgogICAgICA8bW4+MTwvbW4+CiAgICAgIDxtaT5rPC9taT4KICAgICAgPG1pPm08L21pPgogICAgPC9tcm93PgogICAgPG1yb3c+CiAgICAgIDxtbj4xMDAwPC9tbj4KICAgICAgPG1pPm08L21pPgogICAgPC9tcm93PgogIDwvbWZyYWM+CiAgPG1vPsOXPC9tbz4KICA8bWZyYWM+CiAgICA8bXJvdz4KICAgICAgPG1uPjM2MDA8L21uPgogICAgICA8bWk+czwvbWk+CiAgICA8L21yb3c+CiAgICA8bXJvdz4KICAgICAgPG1uPjE8L21uPgogICAgICA8bWk+aDwvbWk+CiAgICA8L21yb3c+CiAgPC9tZnJhYz4KPC9tYXRoPgo="/>
+          <imagedata fileref="static/math-000.mml"/>
         </imageobject>
       </mediaobject>
     </informalequation>
@@ -127,7 +123,7 @@
     <informalequation>
       <mediaobject>
         <imageobject>
-          <imagedata fileref="DonnéesEtMesures_files/math-001.mml"/>
+          <imagedata fileref="static/math-001.mml"/>
         </imageobject>
       </mediaobject>
     </informalequation>
