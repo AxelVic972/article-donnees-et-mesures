@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<section lang="fr-FR">
+  <section>
+    <title>Introduction</title>
+
+    <para>Comment comparer la vitesse d’une voiture et d’un coureur ? Quelles
+    informations sont nécessaires pour déterminer la disponibilité d’un
+    serveur ? Comment comparer la quantité de liquide contenu dans une piscine
+    et dans une bouteille d’eau. Nous utiliserons pour cela une mesure.</para>
+
+    <para>Le concept de mesure a plusieurs définitions selon le contexte, mais
+    en ce tenant à celle du Larousse :</para>
+
+    <para>« Une mesure est une quantité servant d'unité de base pour cette
+    évaluation. »</para>
+
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata contentdepth="302" contentwidth="605"
+                     fileref="DonnéesEtMesures_files/image1.png"/>
+        </imageobject>
+      </inlinemediaobject>
+    </para>
+  </section>
+
+  <section>
+    <title>Champs d’applications</title>
+
+    <para>L’application du concept de mesure est quasi-universelle. On la
+    retrouve dans tous les domaines ayant besoin d’une information
+    quantitative :</para>
+
+    <para>En physique :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>La vitesse d’un objet (km/h)</para>
+      </listitem>
+
+      <listitem>
+        <para>La température (dégrées Celsius)</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>En informatique :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>La disponibilité d’un serveur (% de uptime)</para>
+      </listitem>
+
+      <listitem>
+        <para>La vitesse d’écriture (Mo/s)</para>
+      </listitem>
+    </itemizedlist>
+
+    <para>En santé :</para>
+
+    <itemizedlist>
+      <listitem>
+        <para>Division cellulaire</para>
+      </listitem>
+
+      <listitem>
+        <para>La capacité respiratoire (VO2 Max)</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+
+  <section>
+    <title>Unité de mesure</title>
+
+    <para>En fonction du contexte, certaines mesures exprimant la même
+    information peuvent parfois être plus pertinentes à exprimer : Par
+    exemple, si on considère un coureur du 100m, la mesure du mètre/seconde
+    semble la plus judicieuse pour constater l’information. Mais pour une
+    voiture pouvant parcourir une beaucoup plus grande distance, la mesure du
+    km/h semble plus pertinente.</para>
+
+    <para>Maintenant, pour comparer ces deux informations entre elles, quelle
+    mesure faut-il choisir ? Encore une fois, cela dépendra du contexte. Par
+    exemple, si le problème est : <emphasis>Un coureur peut-il dépasser la
+    vitesse règlementaire sur la route ?</emphasis> Il pourra être intéressant
+    de choisir le km/h dans le cas présent.</para>
+
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="data:image/png;base64,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"/>
+      </imageobject>
+    </mediaobject>
+  </section>
+
+  <section>
+    <title>Conversion d’unités</title>
+
+    <para>
+      <emphasis>Usain Bolt pourrait-il se faire « flasher » par un radar à 50
+      km/h lors de son établissement du record du monde ?</emphasis>
+    </para>
+
+    <para>L’actuel record du monde de Usain Bolt est 100m en 9.58s. On peut
+    déterminer que sa vitesse moyenne est donc de 10.44m/s. Il faut maintenant
+    convertir cette mesure en km/h.</para>
+
+    <para>Pour convertir une mesure, il faudra regarder les <emphasis
+    role="bold">coefficients de conversion </emphasis>: dans le cas ici
+    présent, combien de secondes il y a dans une heure et combien de mètres il
+    y a dans un kilomètre. Ainsi pour calculer la vitesse S on a :</para>
+
+    <informalequation>
+      <mathphrase>S = </mathphrase>
+    </informalequation>
+
+    <informalequation>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="data:image/png;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPG1hdGggZGlzcGxheT0iYmxvY2siIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk4L01hdGgvTWF0aE1MIj4KICA8bWk+UzwvbWk+CiAgPG1vPj08L21vPgogIDxtZnJhYz4KICAgIDxtcm93PgogICAgICA8bW4+MTAuNDQ8L21uPgogICAgICA8bWk+bTwvbWk+CiAgICA8L21yb3c+CiAgICA8bXJvdz4KICAgICAgPG1uPjE8L21uPgogICAgICA8bWk+czwvbWk+CiAgICA8L21yb3c+CiAgPC9tZnJhYz4KICA8bW8+w5c8L21vPgogIDxtZnJhYz4KICAgIDxtcm93PgogICAgICA8bW4+MTwvbW4+CiAgICAgIDxtaT5rPC9taT4KICAgICAgPG1pPm08L21pPgogICAgPC9tcm93PgogICAgPG1yb3c+CiAgICAgIDxtbj4xMDAwPC9tbj4KICAgICAgPG1pPm08L21pPgogICAgPC9tcm93PgogIDwvbWZyYWM+CiAgPG1vPsOXPC9tbz4KICA8bWZyYWM+CiAgICA8bXJvdz4KICAgICAgPG1uPjM2MDA8L21uPgogICAgICA8bWk+czwvbWk+CiAgICA8L21yb3c+CiAgICA8bXJvdz4KICAgICAgPG1uPjE8L21uPgogICAgICA8bWk+aDwvbWk+CiAgICA8L21yb3c+CiAgPC9tZnJhYz4KPC9tYXRoPgo="/>
+        </imageobject>
+      </mediaobject>
+    </informalequation>
+
+    <para>On peut alors simplifier les unités et se retrouver avec :</para>
+
+    <informalequation>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="DonnéesEtMesures_files/math-001.mml"/>
+        </imageobject>
+      </mediaobject>
+    </informalequation>
+
+    <para>On peut donc constater Usain Bolt ne pourrait pas se faire flasher
+    par un radar à 50 km/h.</para>
+  </section>
+
+  <section>
+    <title>Mesures moyennes et mesures instantanées</title>
+
+    <para>Il y a certains cas où une mesure moyenne n’est pas adaptée. Par
+    exemple, une voiture qui a roulé 100km en une heure aura pour vitesse
+    moyenne 100km/h, mais cela ne veut pas forcément dire que cette voiture
+    roulait à 100km/h dès la sortie de son garage.</para>
+
+    <para>C’est dans ces moments-là que la vitesse instantanée peut se montrer
+    intéressante : en prenant la distance totale parcouru entre deux instants
+    t1 et t2, on aura une information plus précise de la vitesse à cet instant
+    t (t1 &lt; t &lt; t2).</para>
+
+    <para>Bien évidemment, il faudra toujours penser au contexte. En effet, si
+    on mesurait l’uptime d’un serveur sur un jour de maintenance,
+    l’information ne serait pas pertinente par rapport à son état usuel, et de
+    ce fait, une mesure moyenne serait plus intéressante.</para>
+  </section>
+
+  <section>
+    <title>Conclusion</title>
+
+    <para>Le but de cet article était de montrer pourquoi les mesures sont des
+    composantes essentielles à la réflexion scientifique car en plus de nous
+    donner l’information dont on a besoin, elles nous permettent d’ajouter une
+    précision à nos données selon les problèmes auxquels nous nous confrontons
+    dans la vie réelle.</para>
+  </section>
+
+  <section>
+    <title>Sources</title>
+
+    <itemizedlist>
+      <listitem lang="en-US">
+        <para>
+          <ulink
+          url="https://www.edx.org/course/question-everything-scientific-thinking-in-real-life">Question
+          Everything: Scientific Thinking in Real Life</ulink>
+        </para>
+      </listitem>
+
+      <listitem>
+        <para>Réflexions personnelles</para>
+      </listitem>
+    </itemizedlist>
+  </section>
+</section>
